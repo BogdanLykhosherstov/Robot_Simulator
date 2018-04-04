@@ -113,9 +113,10 @@ public class Robot {
 				int x_new = Integer.parseInt(command.substring(6, 7));
 				int y_new = Integer.parseInt(command.substring(8, 9));
 				String direction_new = command.substring(10);
-				robot.place(x_new, y_new, direction_new);
+				
 				//Now the robot has been positioned and initialized, so other commands may be performed
 				positionFlag=true;
+				robot.place(x_new, y_new, direction_new);
 					
 			}
 			//Otherwise enter command as it is
