@@ -22,7 +22,7 @@ public class Robot {
 			
 		}
 		else if(this.direction.equals("EAST")){
-			if((this.x + 1)<=5){
+			if((this.x + 1)<=4){
 				this.x+=1;
 			}
 			else{
@@ -39,7 +39,7 @@ public class Robot {
 			}	
 		}
 		else if(this.direction.equals("NORTH")){
-			if((this.y + 1)<=5){
+			if((this.y + 1)<=4){
 				this.y+=1;
 			}
 			else{
@@ -83,7 +83,7 @@ public class Robot {
 	}
 	//Places the robot onto the grid
 	public void place(int x,int y, String pos){
-		if(x>=0 && x<=5 && y>=0 && y<=5){
+		if(x>=0 && x<=4 && y>=0 && y<=4){
 			this.x=x;
 			this.y=y;
 			this.direction = pos;
