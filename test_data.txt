@@ -1,0 +1,61 @@
+
+Enter your commands below (-1 to quit):
+PLACE 1,9,NORTH
+Error, placing Robot outside of the grid
+REPORT
+Error, Robot must be placed first before commands are issued!
+MOVE
+Error, Robot must be placed first before commands are issued!
+TURN
+Error, Robot must be placed first before commands are issued!
+PLACE 4,4,NORTH
+REPORT
+Output: 4,4,NORTH
+MOVE
+This move will cause the Robot to fall off the grid. Please try again.
+RIGHT
+REPORT
+Output: 4,4,EAST
+MOVE
+This move will cause the Robot to fall off the grid. Please try again.
+LEFT
+REPORT
+Output: 4,4,NORTH
+LEFT
+REPORT
+Output: 4,4,WEST
+FAKECOMMAND
+REPORT
+Output: 4,4,WEST
+MOVE
+MOVE
+MOVE
+MOVE
+MOVE
+This move will cause the Robot to fall off the grid. Please try again.
+REPORT
+Ouput: 0,4,WEST
+LEFT
+REPORT
+Ouput: 0,4,SOUTH
+MOVE
+MOVE
+MOVE
+MOVE
+MOVE
+This move will cause the Robot to fall off the grid. Please try again.
+REPORT
+Ouput: 0,0,SOUTH
+LEFT
+MOVE
+This move will cause the Robot to fall off the grid. Please try again.
+REPORT
+Ouput: 0,0,WEST
+LEFT
+LEFT
+Ouput: 0,0,EAST
+RIGHT
+RIGHT
+RIGHT
+Ouput: 0,0,NORTH
+-1
